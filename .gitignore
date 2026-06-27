@@ -1,0 +1,57 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+myenv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# LangChain / AI
+chroma_db/
+vectorstore/
+faiss_index/
+
+# Temporary Files
+temp/
+tmp/
+
+# PDF Processing
+*.pdf.bak
+
+# Model Files
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Cache
+.cache/

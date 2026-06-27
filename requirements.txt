@@ -1,0 +1,13 @@
+langchain
+langchain_openai
+python-dotenv
+langchain-google-genai
+grandalf # for graph visualization of chains
+langchain_community
+pypdf
+jq # for JSON processing in JSONLoaderSSS
+Unstructured[pdf,text,csv,json] # for loading various file types in UnstructuredFileLoader
+langchain-text-splitters
+chromadb
+faiss-cpu # for FAISS vector store
+rank_bm25 # for BM25 retriever

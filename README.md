@@ -44,7 +44,6 @@ cd LangChainP
 
 
 2. **Install dependencies:**
-```bash
 pip install -r requirements.txt
 
 3. **Configure Environment Variables:**Create a .env file in the project root directory and insert your credentials: 

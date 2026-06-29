@@ -1,16 +1,16 @@
-# LangChain AI Engineering Toolkit (LangChainP)
+# LangChain AI Engineering Toolkit
 
 An educational and production-ready repository demonstrating the end-to-end lifecycle of Generative AI applications using the LangChain framework. This project systematically breaks down advanced LLM orchestration concepts—from basic prompt templates to complete Retrieval-Augmented Generation (RAG) pipelines—into scalable Python implementations.
 
 ---
 
-### 🌟 Business Value & Impact (For Recruiters)
+### 🌟 Business Value & Impact
 * **What it does:** This project acts as a complete blueprint for building intelligent corporate systems. It provides the building blocks that allow an AI model to read massive company databases, structure messy data, and answer customer queries accurately based on company files.
 * **Why it matters:** Instead of building simple chatbots that guess answers, this toolkit enables enterprises to automate document analysis, reduce human data-entry labor, and securely search internal proprietary documents with high precision.
 
 ---
 
-### 🚀 Module Architecture & Features
+###  Module Architecture & Features
 The repository is structured sequentially to showcase mastery over the entire LangChain ecosystem:
 
 * **1. LLM Integration & Invocation:** Base configuration for securely initializing, parameterizing (temperature, top_p), and querying state-of-the-art chat models (Demonstrated in `01_llm.ipynb`).
@@ -26,7 +26,7 @@ The repository is structured sequentially to showcase mastery over the entire La
 
 ---
 
-### 🛠️ Tech Stack
+###  Tech Stack
 * **Orchestration Framework:** LangChain / LangChain Core / LangChain Community
 * **Language:** Python 3.10+
 * **AI Models:** Google Gemini (`gemini-2.5-flash`)
@@ -42,7 +42,9 @@ The repository is structured sequentially to showcase mastery over the entire La
 git clone [https://github.com/Shrinath-816/LangChainP.git](https://github.com/Shrinath-816/LangChainP.git)
 cd LangChainP
 
+
 2. **Install dependencies:**
+```bash
 pip install -r requirements.txt
 
 3. **Configure Environment Variables:**Create a .env file in the project root directory and insert your credentials: 
